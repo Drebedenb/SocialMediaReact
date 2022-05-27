@@ -1,0 +1,17 @@
+.NotificationItem {
+    margin: 1rem;
+    padding: 1rem;
+    border: #698e02 solid 3px;
+    border-radius: 0.5rem;
+}
+
+.btn {
+    float: right;
+    background-color: white;
+    border: #698e02 solid 3px;
+    border-radius: 0.5rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

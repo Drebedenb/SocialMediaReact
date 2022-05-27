@@ -1,0 +1,35 @@
+.subMenu {
+    display: none;
+}
+
+.mainItem:hover {
+    cursor: pointer;
+}
+
+.mainItem {
+    cursor: pointer;
+    display: inline;
+}
+
+.mainItem:focus ~ .subMenu,
+.mainItem:active ~ .subMenu,
+.subMenu:hover {
+    display: block;
+    background-color: white;
+    border: #698e02 solid 3px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px grey;
+    position: relative;
+    z-index: 999999;
+}
+
+.notesSign {
+    color: white;
+    display: inline;
+    position: relative;
+    top: -1.75rem;
+    right: 1rem;
+    padding: 0.1rem 0.5rem;
+    border-radius: 50%;
+    background: red;
+}

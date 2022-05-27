@@ -1,0 +1,22 @@
+.settings {
+    padding: 1rem;
+    grid-area: content;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.btn {
+    margin-top: 1rem;
+    background-color: rgba(105, 142, 2, 0.16);
+    height: 2rem;
+    width: 8rem;
+    border: #698e02 solid thin;
+    border-radius: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #698e02;
+}

@@ -1,0 +1,90 @@
+.dialogBlock {
+    border: #698e02 solid thick;
+    border-radius: 1rem;
+
+    background: url(https://i.pinimg.com/736x/f6/ea/10/f6ea1057de21951e51349a65373bc65e.jpg) no-repeat;
+    background-size: cover;
+}
+
+.titleOfDialog {
+    color: white;
+    background-color: rgba(105, 142, 2);
+    border-bottom: #698e02 solid thick;;
+}
+
+.dialogMessages {
+    height: 30rem;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.dialogMessages::-webkit-scrollbar {
+    border-radius: 1rem;
+    background-color: transparent;
+}
+
+.dialogMessages::-webkit-scrollbar-thumb {
+    border: #698e02 solid thin;
+    border-radius: 1rem;
+    background-color: rgba(105, 142, 2, 0.5);
+}
+
+.dialogMessages::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(105, 142, 2, 0.8);
+}
+
+.dialogItem {
+    background-color: rgba(105, 142, 2, 0.85);
+    color: white;
+    border: #698e02 solid thick;
+    border-radius: 1rem;
+    width: 20rem;
+    word-wrap: break-word;
+}
+
+.formSend {
+    width: 100%;
+}
+
+.formInput {
+    position: relative;
+    height: 1.5rem;
+    top: -0.75rem;
+    left: 2rem;
+    color: white;
+    width: 85%;
+    border: #698e02 solid thin;
+    border-radius: 2px;
+    background-color: rgba(105, 142, 2, 0.85);
+}
+
+.formInput::placeholder {
+    color: white;
+}
+
+.buttonSend {
+    background-color: transparent;
+    border: 0;
+}
+
+.buttonSend img {
+    height: 2rem;
+    transform: rotate(-90deg);
+    position: relative;
+    z-index: 99999;
+}
+
+.buttonSend img:hover {
+    cursor: pointer;
+}
+
+
+.chooseDialogMessage {
+    color: #698e02;
+    font-size: 300%;
+    height: 30rem;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}

@@ -1,0 +1,9 @@
+.wrapper {
+    margin: auto;
+    width: 60%;
+    display: grid;
+    grid-template-areas:
+    "n content minipage";
+    grid-gap: 1rem;
+    grid-template-columns: 2fr 10fr 2fr;
+}

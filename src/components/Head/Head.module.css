@@ -1,0 +1,15 @@
+.head {
+    grid-area: h;
+    height: 3rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px grey;
+
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.head img {
+    height: 3rem;
+}

@@ -1,0 +1,42 @@
+.navbar {
+    height: 10rem;
+    grid-area: n;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 10px 5px 5px grey;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+li:hover {
+    cursor: pointer;
+    list-style-type: none;
+    border-radius: 2px;
+    background-color: rgba(80, 80, 80, 0.1);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.link {
+    color: black;
+}
+
+.active {
+    color: #698e02;
+}
+
+h1 {
+    color: #698e02;
+}
