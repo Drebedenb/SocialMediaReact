@@ -1,6 +1,6 @@
 .wrapper {
     margin: auto;
-    width: 60%;
+    width: 80%;
     display: grid;
     grid-template-areas:
     "n content minipage";

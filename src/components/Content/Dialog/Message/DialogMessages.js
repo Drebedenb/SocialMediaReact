@@ -13,7 +13,6 @@ const MessageItem = (props) => {
 const DialogMessages = ({dialog, addMessage}) => {
     let [value, setValue] = useState('');
 
-
     const submitHandler = (event) => {
         event.preventDefault();
         if (value.trim()) {

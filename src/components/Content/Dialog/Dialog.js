@@ -19,9 +19,13 @@ const Dialog = (props) => {
         <div className={s.dialog}>
             <div className={s.dialogItems}>
 
-                <input className={s.inputSearch} placeholder={"Search dialog..."} value={value} onChange={(event) => {
-                    setValue(event.target.value)
-                }}/>
+                <input
+                    className={s.inputSearch}
+                    placeholder={"Search dialog..."}
+                    value={value}
+                    onChange={(event) => {
+                        setValue(event.target.value)
+                    }}/>
 
                 {props.dialogs.length === 0 ? <div>No such dialogs</div> :
                     props.dialogs.map(dialog => {
